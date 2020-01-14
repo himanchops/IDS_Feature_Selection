@@ -1,0 +1,214 @@
+CIC Dataset
+
+FRIDAY_DDOS
+Test accuracy with all features: 	0.997625
+Validation accuracy with all features: 	0.9987
+Test time : 103.439012407
+Precision : 	0.81782392608695654	Recall : 0.82834394904458598
+Number of Features : 85
+---Best Informative Features---
+	1. Subflow Bwd Packets
+	2. min_seg_size_forward
+	3. Fwd IAT Std
+	4. URG Flag Count
+	5. Active Max
+	6. Idle Std
+	7. Flow IAT Max
+	8. PSH Flag Count
+	9. act_data_pkt_fwd
+	10. Bwd URG Flags
+---Optimal Feature Subset(s)---
+Number Features In Subset: 	43
+Test Time: 43.3561950469
+Validation Accuracy: 		0.9984
+Precision : 	0.92454712472795722	Recall : 0.98433941492467292
+Feature Subset: [' Source IP', 'Protocol', 'Timestamp', 'Total Length of Bwd Packets', 'Fwd Packet Length Std', 'Bwd Packet Length Max', 'Bwd Packet Length Mean', 'Bwd Packet Length Std', 'Flow Packets/s', 'Flow IAT Min', 'Fwd IAT Std', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Std', 'Bwd IAT Min', 'Fwd URG Flags', 'Fwd Packets/s', 'Bwd Packets/s', 'Max Packet Length', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'PSH Flag Count', 'URG Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Fwd Avg Bulk Rate', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Active Min', 'Idle Mean', 'Idle Std', 'External IP']
+--- BUILD TIME : 1251.4964 secs ---
+
+
+FRIDAY_MORNING
+Test accuracy with all features: 	0.9985016856036958
+Validation accuracy with all features: 	0.9986015383078614
+Test time : 91.6460783497
+Precision : 	0.9175	Recall : 0.903245789037232
+Number of Features : 84
+---Best Informative Features---
+	1. min_seg_size_forward
+	2. Avg Bwd Segment Size
+	3. Bwd Packet Length Mean
+	4. Packet Length Variance
+	5. Fwd Header Length.1
+	6. Bwd IAT Mean
+	7. Active Std
+	8. Flow Bytes/s
+	9. Min Packet Length
+	10. RST Flag Count
+---Optimal Feature Subset(s)---
+Number Features In Subset: 	42
+Test Time: 39.3372450161
+Validation Accuracy: 		0.9987014284287284
+Precision : 	0.91782436547286654	Recall : 0.98324468621457685
+Feature Subset: ['Source IP', 'Source Port', 'Destination Port', 'Protocol', 'Timestamp', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Std', 'Bwd Packet Length Mean', 'Bwd Packet Length Std', 'Flow Bytes/s', 'Flow IAT Mean', 'Flow IAT Std', 'Fwd IAT Min', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Min', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Bwd URG Flags', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Packet Length Mean', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'PSH Flag Count', 'URG Flag Count', 'Avg Fwd Segment Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Packets/Bulk', 'Bwd Avg Packets/Bulk', 'Subflow Bwd Bytes', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Std', 'Idle Mean', 'Idle Std']
+--- BUILD TIME : 1182.0664 secs ---
+
+
+FRDIAY_PORTSCAN
+Test accuracy with all features: 	0.998875
+Validation accuracy with all features: 	0.9981
+Test time : 103.147908169
+Precision : 	0.5	Recall : 0.60512820512820512
+Number of Features : 84
+---Best Informative Features---
+	1. act_data_pkt_fwd
+	2. Fwd Header Length
+	3. Bwd Avg Packets/Bulk
+	4. Destination Port
+	5. Bwd URG Flags
+	6. Packet Length Mean
+	7. Bwd IAT Std
+	8. Min Packet Length
+	9. CWE Flag Count
+	10. Subflow Fwd Bytes
+---Optimal Feature Subset(s)---
+Number Features In Subset: 	43
+Test Time: 51.3288763385
+Test Accuracy: 		0.998875
+Validation Accuracy: 	0.9984
+Precision : 	0.88122404782305271	Recall : 0.9532
+Feature Subset: ['Source IP', 'Source Port', ' Destination IP', 'Destination Port', 'Timestamp', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Std', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Flow IAT Mean', ' Flow IAT Std', 'Fwd IAT Total', 'Fwd IAT Std', 'Fwd IAT Max', 'Bwd IAT Std', 'Bwd IAT Max', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Fwd Header Length', 'Min Packet Length', 'Packet Length Mean', 'SYN Flag Count', 'PSH Flag Count', 'URG Flag Count', 'CWE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Subflow Fwd Packets', 'Subflow Fwd Bytes', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Idle Std', 'Idle Max', 'Idle Min']
+--- BUILD TIME : 1172.9664 secs ---
+
+
+THURSDAY_INFILTRATION
+Test accuracy with all features: 	1.0
+Validation accuracy with all features: 	0.9996666666666667
+Test time : 147.5968541595
+Precision : 	0.5	Recall : 1.0
+Number of Features : 84
+---Best Informative Features---
+	1. Flow ID
+	2. Min Packet Length
+	3. Init_Win_bytes_backward
+	4. Idle Mean
+	5. Timestamp
+	6. Flow Duration
+	7. Total Backward Packets
+	8. CWE Flag Count
+	9. Active Max 
+	10. Bwd IAT Min
+---Optimal Feature Subset(s)---
+Number Features In Subset: 	47
+Test Time: 107.426991131
+Validation Accuracy: 		0.9999166666666667
+Precision : 	1.0	Recall : 1.0
+Feature Subset: ['Flow ID', 'Source Port', 'Destination IP', 'Destination Port', 'Timestamp', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Bwd Packet Length Mean', 'Bwd Packet Length Std', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Max', 'Fwd IAT Mean', 'Fwd IAT Max', 'Bwd IAT Min', 'Bwd IAT Std', 'Bwd IAT Max', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Variance', 'FIN Flag Count', 'PSH Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Average Packet Size', 'Avg Fwd Segment Size', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Subflow Fwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Std', 'Active Max', 'Idle Mean', 'Idle Max']
+--- BUILD TIME : 1267.2064 secs ---
+
+
+THURSDAY_WEBATTACKS
+Test accuracy with all features: 	0.99675
+Validation accuracy with all features: 	0.996
+Test time : 97.3533989423
+Precision : 	0.9025806451612903	Recall : 0.910828025477707
+Number of Features : 84
+---Best Informative Features---
+	1. Bwd Packet Length Max
+	2. Fwd Packet Length Max
+	3. Fwd Packet Length Min
+	4. Fwd IAT Mean
+	5. Max Packet Length
+	6. Bwd Avg Bulk Rate
+	7. Idle Max
+	8. Total Fwd Packets
+	9. Total Backward Packets
+	10. Bwd PSH Flags
+---Optimal Feature Subset(s)---
+Number Features In Subset: 	38
+Test Time: 57.540497106
+Validation Accuracy: 		0.9965
+Precision : 	0.90434782608695654	Recall : 0.92834394904458598
+Feature Subset: ['Flow ID', 'Source Port', 'Destination Port', 'Protocol', 'Total Backward Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Mean', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Std', 'Flow Bytes/s', 'Flow Packets/s', 'Fwd IAT Mean', 'Fwd URG Flags', 'Bwd Header Length', 'Min Packet Length', 'Max Packet Length', 'Packet Length Mean', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Avg Fwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Packets', 'Subflow Bwd Packets', 'Init_Win_bytes_backward', 'Active Max', 'Idle Max', 'Idle Min']
+--- BUILD TIME : 1317.9334 secs ---
+
+
+WEDNESDAY
+Test accuracy with all features: 	0.964375
+Validation accuracy with all features: 	0.9658
+Test time : 199.4990745336
+Precision : 	0.8594594594594595	Recall : 0.6803827751196172
+Number of Features : 84
+---Best Informative Features---
+	1. Destination Port
+	2. Bwd IAT Mean
+	3. RST Flag Count
+	4. Active Min
+	5. Max Packet Length
+	6. PSH Flag Count
+	7. Flow IAT Min
+	8. Fwd IAT Mean
+	9. Fwd Packet Length Min
+	10. Packet Length Mean
+---Optimal Feature Subset(s)---
+Number Features In Subset: 	42
+Test Time: 142.584728472
+Validation Accuracy: 		0.9754
+Precision : 	0.9094594594594595	Recall : 0.8444976076555024
+Feature Subset: ['Flow ID', 'Source IP', 'Source Port', 'Destination IP', 'Destination Port', 'Timestamp', 'Total Length of Fwd Packets', 'Fwd Packet Length Mean', 'Fwd Packet Length Std', 'Bwd Packet Length Max', 'Flow Bytes/s', 'Flow IAT Mean', 'Flow IAT Max', 'Fwd IAT Total', 'Fwd IAT Std', 'Fwd IAT Min', 'Bwd IAT Max', 'Bwd IAT Min', 'Bwd PSH Flags', 'Max Packet Length', 'Packet Length Std', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Avg Fwd Segment Size', 'Avg Bwd Segment Size', 'Fwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'min_seg_size_forward', 'Active Std', 'Active Min', 'Idle Max']
+--- BUILD TIME : 1885.4034 secs ---
+
+
+TUESDAY
+Test accuracy with all features: 	0.9485
+Validation accuracy with all features: 	0.9458
+Test time : 167.4385449683
+Precision : 	0.9175247524752475	Recall : 0.6950859950859951
+Number of Features : 84
+---Best Informative Features---
+	1. Protocol
+	2. Total Length of Fwd Packets
+	3. Bwd Packet Length Mean
+	4. Packet Length Mean
+	5. Subflow Bwd Bytes
+	6. Fwd PSH Flags
+	7. Bwd URG Flags
+	8. Subflow Fwd Bytes
+	9. Active Std
+	10. Fwd IAT Total
+---Optimal Feature Subset(s)---
+Number Features In Subset: 	47
+Test Time: 158.717205409
+Validation Accuracy: 		0.9493
+Precision : 	0.9975	Recall : 0.89017199017199015
+
+Number Features In Subset: 	30
+Test Time: 88.0019259141
+Validation Accuracy: 		0.9493
+Precision : 	0.9641148325358851	Recall : 0.8950859950859951
+Feature Subset: ['Protocol', 'Flow Duration', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Fwd Packet Length Min', 'Bwd Packet Length Min', 'Flow Packets/s', 'Flow IAT Mean', 'Fwd IAT Max', 'Bwd IAT Std', 'Fwd URG Flags', 'Bwd URG Flags', 'Max Packet Length', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'URG Flag Count', 'Average Packet Size', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Active Std', 'Active Max', 'Active Min', 'Idle Max', 'Idle Min']
+--- BUILD TIME : 1291.8234 secs ---
+
+
+NSLKDD DATASET
+Test accuracy with all features: 	0.865506329113924
+Validation accuracy with all features: 	0.822631223628693
+Test time : 3.763731330695
+Precision : 	0.8163265306122449	Recall : 0.6448275862068966
+Number of Features : 41
+---Best Informative Features---
+	1. count
+	2. num_outbound_cmds
+	3. serror_rate
+	4. service
+	5. same_srv_rate
+	6. num_shells
+	7. duration
+	8. dst_host_same_srv_rate
+	9. num_compromised
+	10. rerror_rate
+---Optimal Feature Subset(s)---
+Number Features In Subset: 	23
+Test Time: 1.883286294725
+Validation Accuracy: 		0.9126582278481012
+Precision : 	0.9285714285714286	Recall : 0.8229885057471264
+Feature Subset: ['duration', 'service', 'dst_bytes', 'wrong_fragment', 'hot', 'num_compromised', 'logged_in', 'root_shell', 'num_shells', 'num_outbound_cmds', 'count', 'srv_count', 'serror_rate', 'rerror_rate', 'srv_rerror_rate', 'same_srv_rate', 'diff_srv_rate', 'dst_host_count', 'dst_host_same_srv_rate', 'dst_host_diff_srv_rate', 'dst_host_same_src_port_rate', 'dst_host_srv_serror_rate', 'dst_host_rerror_rate']
+--- BUILD TIME : 18.0122 secs ---
